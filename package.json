@@ -1,0 +1,25 @@
+{
+    "dependencies": {
+        "bootstrap": "^5.3.2",
+        "bootstrap-icons": "^1.11.3"
+    },
+    "name": "pizzaria",
+    "description": "Pizzaria feita com bootstrap",
+    "version": "1.0.1",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "douglas lima",
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "douglas lima",
+            "email": "douglaslima13bezerra@gmail.com"
+        },
+        {
+            "name": "yuri sousa",
+            "email": "emaildoyuri@gmail.com"
+        }
+    ]
+}
