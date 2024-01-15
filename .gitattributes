@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
+# Define que todos os arquivos são tratados como texto
 * text=auto
+
+# Para arquivos específicos, indique a linguagem para destaque de sintaxe
+* .html linguist-language=html
+* .css linguist-language=css
+* .js linguist-language=javascript
+
+# Manipulação de espaços em branco
+* -whitespace
+
+# Definir fim de linha para arquivos específicos
+* text=auto eol=LF
+
+# Pastas que contêm dependências ou módulos
+node_modules/* -text
