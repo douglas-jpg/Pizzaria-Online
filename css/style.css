@@ -27,7 +27,28 @@ p.truncar-3l {
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
+
 input[type="number"] {
     -moz-appearance: textfield;
     appearance: textfield;
+}
+
+@media screen and (max-width: 469px) {
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
+
+#add:checked + label a {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+#add + label a {
+    transition: color 0.2s ease;
+    color: var(--bs-danger) !important;
 }
