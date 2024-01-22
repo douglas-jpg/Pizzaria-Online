@@ -1,14 +1,17 @@
 {
     "dependencies": {
         "bootstrap": "^5.3.2",
-        "bootstrap-icons": "^1.11.3"
+        "bootstrap-icons": "^1.11.3",
+        "json-server": "^1.0.0-alpha.22"
     },
     "name": "pizzaria",
     "description": "Pizzaria feita com bootstrap",
     "version": "0.1.0",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "help-server": "json-server --help",
+        "server": "json-server --watch data/db.json --port 5000"
     },
     "author": "douglas lima",
     "license": "MIT",

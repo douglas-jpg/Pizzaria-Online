@@ -63,8 +63,8 @@
                                 <a href="/src/login.html" class="nav-link">Entrar</a>
                             </li>
                             <li class="nav-item">
-                                <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
-                                    title="5 Produto(s) no carrinho"><small>5</small></span>
+                                <!-- <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                                    title="5 Produto(s) no carrinho"><small>5</small></span> -->
                                 <a href="/src/carrinho.html" class="nav-link text-white">
                                     <i class="bi-cart" style="font-size: 24px; line-height: 24px;"></i>
                                 </a>
@@ -116,12 +116,11 @@
             </div>
         </header>
 
-        <!-- configurar ordenação com js  -->
         <div class="container">
             <hr>
             <div class="row g-2 d-flex justify-content-center">
                 <div class="col-12 col-md-4 col-lg-3 col-sm-5 me-auto">
-                    <form action="">
+                    <form id="formSearch">
                         <div class="input-group input-group-sm">
                             <input type="search" name="pesquisar" id="searchInput" class="form-control"
                                 placeholder="Procurar pizza">
@@ -133,10 +132,11 @@
                 </div>
                 <div class="col-6 col-md-4 col-lg-2 justify-content-sm-end">
                     <form>
-                        <select class="form-select form-select-sm">
-                            <option value="nome">Ordernar pelo nome</option>
-                            <option value="maiorPreco">Ordernar pelo maior preço</option>
-                            <option value="menorPreco">Ordernar pelo menor preço</option>
+                        <select class="form-select form-select-sm" id="ordemPizzas">
+                            <option value="" selected>Ordernar</option>
+                            <option value="nome">Ordernar pelo Nome</option>
+                            <option value="preco">Ordernar pelo Preço</option>
+                            <option value="avaliacao">Ordernar pelo Avaliação</option>
                         </select>
                     </form>
                 </div>
