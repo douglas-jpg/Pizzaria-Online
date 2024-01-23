@@ -8,6 +8,8 @@ const emailUser = document.querySelector("#email");
 const passwordUser = document.querySelector("#senha");
 const confirmPassowordUser = document.querySelector("#repetirSenha");
 
+const apiuRL = 
+
 const checkPasswords = function (password1, password2) {
     if (password1 === password2) {
         return true;
