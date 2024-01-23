@@ -80,15 +80,7 @@
                         <div class="col-12 col-sm-10 col-md-6">
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="Endereco" placeholder=" ">
-                                <label for="Endereco">Digite o nome do Endereço</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-3 justify-content-center">
-                        <div class="col-12 col-sm-10 col-md-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="nome" placeholder=" ">
-                                <label for="nome">Digite o seu Nome</label>
+                                <label for="Endereco">Nome do Endereço</label>
                             </div>
                         </div>
                     </div>
@@ -96,27 +88,36 @@
                         <div class="col-12 col-sm-5 col-md-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="Rua" placeholder=" ">
-                                <label for="Rua">Digite a sua Rua</label>
+                                <label for="Rua">Rua</label>
                             </div>
                         </div>
                         <div class="col-12 col-sm-5 col-md-3">
                             <div class="form-floating">
                                 <input type="number" class="form-control" id="Numero" placeholder=" ">
-                                <label for="Numero">Digite o seu Numero</label>
+                                <label for="Numero">Numero</label>
                             </div>
                         </div>
                     </div>
                     <div class="row mt-3 justify-content-center">
                         <div class="col-12 col-sm-5 col-md-3">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="Bairro" placeholder=" ">
-                                <label for="Bairro">Digite o seu bairro</label>
+                                <input type="text" class="form-control" id="Bairro" placeholder=" " pattern="[0-9]">
+                                <label for="Bairro">Bairro</label>
                             </div>
                         </div>
                         <div class="col-12 col-sm-5 col-md-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="cep" placeholder=" ">
                                 <label for="cep">Digite o seu CEP</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 justify-content-center">
+                        <div class="col-12 col-sm-5 col-md-6">
+                            <div class="form-floating mb-3">
+                                <textarea id="txtmenssagem" class="form-control" placeholder=" "
+                                    style="height: 100px;"></textarea>
+                                <label for="txtmenssagem">Ponto de referencia</label>
                             </div>
                         </div>
                     </div>

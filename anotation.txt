@@ -1,0 +1,15 @@
+nome
+sobrenome 
+email 
+senha 
+CPF 
+Data de nascimento
+Telefone
+Endereço
+    nome
+    CEP
+    numero
+    rua
+    bairro
+    complemento
+
