@@ -11,7 +11,7 @@ let nome = "";
 
 const createCardPizza = function (pizza) {
     const ingredientes = pizza.ingredientes.join(", ");
-    const cardPizza = `<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+    const cardPizza = `<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 z-4">
                             <div class="card text-center bg-light h-100">
                                 <a href="" class="position-absolute end-0 p-2 text-danger">
                                     <i class="bi-suit-heart" style="font-size: 24px;"></i>
@@ -65,7 +65,6 @@ formSearch.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     nome = inputSearch.value.trim();
-    URL = `http://localhost:5000/pizza?_sort=${ordem}&nome=${nome}`;
 
     try {
         cardArea.innerHTML = "";
@@ -77,7 +76,6 @@ formSearch.addEventListener("submit", async (e) => {
 
 select.addEventListener("change", async () => {
     ordem = select.value;
-    URL = `http://localhost:5000/pizza?_sort=${ordem}&nome=${nome}`;
 
     try {
         cardArea.innerHTML = "";

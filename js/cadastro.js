@@ -9,6 +9,15 @@ const passwordUser = document.querySelector("#senha");
 
 const apiURLUsers = "http://localhost:5000/clientes";
 
+const saveUser = function ({ id, nome }) {
+    const user = {
+        id: id,
+        nome: nome,
+    };
+
+    localStorage.setItem("activeUser", JSON.stringify(user));
+};
+
 async function registerUser(user) {
     await fetch(apiURLUsers, {
         method: "POST",
@@ -22,7 +31,7 @@ async function registerUser(user) {
 async function getLastIdUsers() {
     const response = await fetch(apiURLUsers);
     const data = await response.json();
-    return data[data.length - 1]?.id || 0;
+    return data[data.length - 1].id || 0;
 }
 
 formCadastro.addEventListener("submit", async (e) => {
@@ -43,6 +52,8 @@ formCadastro.addEventListener("submit", async (e) => {
         favoritos: [],
         carrinho: [],
     };
+
+    saveUser(user);
 
     await registerUser(user);
 });

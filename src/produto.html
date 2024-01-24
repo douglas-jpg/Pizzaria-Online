@@ -26,6 +26,9 @@
     <!-- css local  -->
     <link rel="stylesheet" href="../css/style.css">
 
+    <!-- js local  -->
+    <script src="../js/navbar.js" defer></script>
+
 
     <title>Produto</title>
 </head>
@@ -54,20 +57,35 @@
                     <div class="align-self-end">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="/src/cadastro.html" class="nav-link">Quero me cadastrar</a>
+                                <a href="#" class="nav-link d-none" id="sairNav">Sair</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/src/login.html" class="nav-link">Entrar</a>
+                                <a href="/src/cliente.html" class="nav-link d-none" id="perfilNav"></a>
                             </li>
                             <li class="nav-item">
-                                <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
-                                    title="5 Produto(s) no carrinho"><small>5</small></span>
+                                <a href="/src/cadastro.html" class="nav-link" id="cadastroNav">Quero me cadastrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/src/login.html" class="nav-link" id="loginNav">Entrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <span id="badge"
+                                    class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                                    title=""></span>
                                 <a href="/src/carrinho.html" class="nav-link text-white">
                                     <i class="bi-cart" style="font-size: 24px; line-height: 24px;"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+
+            <div class="d-none position-fixed top-50 start-50 translate-middle z-5" id="popSair" style="z-index: 10;">
+                <div class="square-box bg-light rounded p-3 text-center">
+                    <p class="mb-3 ">Tem certeza que deseja sair?</p>
+                    <a href="/src/login.html" class="btn btn-outline-danger me-2" id="btnSair">Sair</a>
+                    <button class="btn btn-danger" id="btnFicar">Ficar</button>
                 </div>
             </div>
         </nav>
