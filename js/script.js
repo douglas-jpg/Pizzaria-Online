@@ -4,7 +4,7 @@ const select = document.querySelector("#ordemPizzas");
 const formSearch = document.querySelector("#formSearch");
 const inputSearch = document.querySelector("#searchInput");
 
-const apiUrl = `http://localhost:5000/pizza`;
+const apiUrl = "http://localhost:5000/pizza";
 
 let ordem = "";
 let nome = "";
