@@ -1,600 +1,703 @@
 {
-    "pizza": [
+  "pizza": [
+    {
+      "id": "1",
+      "imagem": "../img/Pizzas/pizza1.png",
+      "nome": "Pepperoni",
+      "preco": 30,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "peperoni"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "carne de porco(na calabresa)"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.55,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "2",
+      "imagem": "../img/Pizzas/pizza2.png",
+      "nome": "Espinafre e Alcachofra",
+      "preco": 35,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "espinafre",
+        "alcachofra"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.35,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "3",
+      "imagem": "../img/Pizzas/pizza3.png",
+      "nome": "Mexicana",
+      "preco": 40,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "peperoni",
+        "pimenta jalapeño",
+        "pimentão",
+        "cebola"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "pimenta jalapeño",
+        "carne de porco (no peperoni)"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.77,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "4",
+      "imagem": "../img/Pizzas/pizza4.png",
+      "nome": "Cogumelos Trufados",
+      "preco": 38,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "cogumelos trufados"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "cogumelos"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.46,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "5",
+      "imagem": "../img/Pizzas/pizza5.png",
+      "nome": "Rúcula com Tomate Seco",
+      "preco": 42,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "rúcula",
+        "tomate seco"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "tomates secos",
+        "nozes"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.12,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "6",
+      "imagem": "../img/Pizzas/pizza6.png",
+      "nome": "Cogumelos com Manjericão",
+      "preco": 36,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "cogumelos",
+        "manjericão"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "cogumelos"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.02,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "7",
+      "imagem": "../img/Pizzas/pizza7.png",
+      "nome": "Prosciutto e Figos",
+      "preco": 45,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "presunto de Parma (prosciutto)",
+        "figos"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "presunto de Parma (prosciutto)",
+        "figos"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.89,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "8",
+      "imagem": "../img/Pizzas/pizza8.png",
+      "nome": "Pesto e Azeitonas Pretas",
+      "preco": 37,
+      "ingredientes": [
+        "molho pesto",
+        "queijo",
+        "azeitonas pretas"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "nozes"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.33,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "9",
+      "imagem": "../img/Pizzas/pizza9.png",
+      "nome": "Vegetariana",
+      "preco": 38,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "pimentão",
+        "cebola",
+        "azeitonas",
+        "tomate",
+        "cogumelos"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "vegetais variados"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.13,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "10",
+      "imagem": "../img/Pizzas/pizza10.png",
+      "nome": "Margherita com Búfala",
+      "preco": 40,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "tomate",
+        "manjericão",
+        "queijo bufala"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "tomates",
+        "queijo bufala"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.79,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "11",
+      "imagem": "../img/Pizzas/pizza11.png",
+      "nome": "Salame e Azeitonas Pretas",
+      "preco": 32,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "salame",
+        "azeitonas pretas"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "salame",
+        "azeitonas"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.23,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "12",
+      "imagem": "../img/Pizzas/pizza12.png",
+      "nome": "Cogumelos com Pimentão",
+      "preco": 36,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "cogumelos",
+        "pimentão"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "cogumelos",
+        "pimentão"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.57,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "13",
+      "imagem": "../img/Pizzas/pizza13.png",
+      "nome": "Gorgonzola com Tomates Cereja",
+      "preco": 42,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo gorgonzola",
+        "tomates cereja"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "tomates cereja"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.11,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "14",
+      "imagem": "../img/Pizzas/pizza14.png",
+      "nome": "Camarão com azeitonas",
+      "preco": 48,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "camarão",
+        "azeitonas"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "frutos do mar (camarão)",
+        "azeitonas"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.78,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "15",
+      "imagem": "../img/Pizzas/pizza15.png",
+      "nome": "BBQ Frango",
+      "preco": 39,
+      "ingredientes": [
+        "molho barbecue",
+        "queijo",
+        "frango desfiado",
+        "cebola roxa"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "frango",
+        "cebola"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.9,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "16",
+      "imagem": "../img/Pizzas/pizza16.png",
+      "nome": "Frango com Catupiry",
+      "preco": 37,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "frango desfiado",
+        "catupiry"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "frango",
+        "catupiry"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.56,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "17",
+      "imagem": "../img/Pizzas/pizza17.png",
+      "nome": "Caprese",
+      "preco": 43,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "tomate",
+        "queijo bufala",
+        "manjericão"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "tomates",
+        "queijo bufala"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.01,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "18",
+      "imagem": "../img/Pizzas/pizza18.png",
+      "nome": "Margherita",
+      "preco": 35,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "tomate",
+        "manjericão"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "tomates"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.24,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "19",
+      "imagem": "../img/Pizzas/pizza19.png",
+      "nome": "Pepperoni Picante",
+      "preco": 33,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "peperoni picante"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "carne de porco"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.68,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "20",
+      "imagem": "../img/Pizzas/pizza20.png",
+      "nome": "Tradicional",
+      "preco": 30,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "calabresa",
+        "azeitonas"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "carne de porco (na calabresa)",
+        "azeitonas"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.45,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "21",
+      "imagem": "../img/Pizzas/pizza21.png",
+      "nome": "Calabresa",
+      "preco": 32,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "calabresa",
+        "cebola"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "carne de porco (na calabresa)"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.34,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "22",
+      "imagem": "../img/Pizzas/pizza22.png",
+      "nome": "Napolitana",
+      "preco": 38,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "anchovas",
+        "azeitonas",
+        "tomate"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "peixe (anchovas)"
+      ],
+      "disponivel": true,
+      "avaliacao": 5,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "23",
+      "imagem": "../img/Pizzas/pizza23.png",
+      "nome": "Portuguesa",
+      "preco": 41,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo",
+        "presunto",
+        "calabresa",
+        "cebola",
+        "ovos",
+        "azeitonas"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "carne de porco",
+        "ovos",
+        "azeitonas"
+      ],
+      "disponivel": true,
+      "avaliacao": 3.67,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    },
+    {
+      "id": "24",
+      "imagem": "../img/Pizzas/pizza24.png",
+      "nome": "Quatro Queijos",
+      "preco": 37,
+      "ingredientes": [
+        "molho de tomate",
+        "queijo mussarela",
+        "queijo gorgonzola",
+        "queijo parmesão",
+        "queijo provolone"
+      ],
+      "alergicos": [
+        "glúten",
+        "lácteos",
+        "queijos variados"
+      ],
+      "disponivel": true,
+      "avaliacao": 4.46,
+      "promocao": {
+        "ativa": false,
+        "percentualDesconto": 30
+      }
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nome": "Douglas Lima",
+      "adm": true,
+      "email": "douglaslima13bezerra@gmail.com",
+      "senha": "douglaspizza",
+      "cpf": "012.345.678-99",
+      "dataNascimento": "2004-05-13",
+      "telefone": "01234567890",
+      "endereco": [
         {
-            "id": 1,
-            "imagem": "../img/Pizzas/pizza1.png",
-            "nome": "Pepperoni",
-            "preco": 30,
-            "ingredientes": ["molho de tomate", "queijo", "peperoni"],
-            "alergicos": ["glúten", "lácteos", "carne de porco(na calabresa)"],
-            "disponivel": true,
-            "avaliacao": 3.55,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 2,
-            "imagem": "../img/Pizzas/pizza2.png",
-            "nome": "Espinafre e Alcachofra",
-            "preco": 35,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "espinafre",
-                "alcachofra"
-            ],
-            "alergicos": ["glúten", "lácteos"],
-            "disponivel": true,
-            "avaliacao": 4.35,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 3,
-            "imagem": "../img/Pizzas/pizza3.png",
-            "nome": "Mexicana",
-            "preco": 40,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "peperoni",
-                "pimenta jalapeño",
-                "pimentão",
-                "cebola"
-            ],
-            "alergicos": [
-                "glúten",
-                "lácteos",
-                "pimenta jalapeño",
-                "carne de porco (no peperoni)"
-            ],
-            "disponivel": true,
-            "avaliacao": 3.77,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 4,
-            "imagem": "../img/Pizzas/pizza4.png",
-            "nome": "Cogumelos Trufados",
-            "preco": 38,
-            "ingredientes": ["molho de tomate", "queijo", "cogumelos trufados"],
-            "alergicos": ["glúten", "lácteos", "cogumelos"],
-            "disponivel": true,
-            "avaliacao": 3.46,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 5,
-            "imagem": "../img/Pizzas/pizza5.png",
-            "nome": "Rúcula com Tomate Seco",
-            "preco": 42,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "rúcula",
-                "tomate seco"
-            ],
-            "alergicos": ["glúten", "lácteos", "tomates secos", "nozes"],
-            "disponivel": true,
-            "avaliacao": 4.12,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 6,
-            "imagem": "../img/Pizzas/pizza6.png",
-            "nome": "Cogumelos com Manjericão",
-            "preco": 36,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "cogumelos",
-                "manjericão"
-            ],
-            "alergicos": ["glúten", "lácteos", "cogumelos"],
-            "disponivel": true,
-            "avaliacao": 3.02,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 7,
-            "imagem": "../img/Pizzas/pizza7.png",
-            "nome": "Prosciutto e Figos",
-            "preco": 45,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "presunto de Parma (prosciutto)",
-                "figos"
-            ],
-            "alergicos": [
-                "glúten",
-                "lácteos",
-                "presunto de Parma (prosciutto)",
-                "figos"
-            ],
-            "disponivel": true,
-            "avaliacao": 3.89,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 8,
-            "imagem": "../img/Pizzas/pizza8.png",
-            "nome": "Pesto e Azeitonas Pretas",
-            "preco": 37,
-            "ingredientes": ["molho pesto", "queijo", "azeitonas pretas"],
-            "alergicos": ["glúten", "lácteos", "nozes"],
-            "disponivel": true,
-            "avaliacao": 3.33,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 9,
-            "imagem": "../img/Pizzas/pizza9.png",
-            "nome": "Vegetariana",
-            "preco": 38,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "pimentão",
-                "cebola",
-                "azeitonas",
-                "tomate",
-                "cogumelos"
-            ],
-            "alergicos": ["glúten", "lácteos", "vegetais variados"],
-            "disponivel": true,
-            "avaliacao": 4.13,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 10,
-            "imagem": "../img/Pizzas/pizza10.png",
-            "nome": "Margherita com Búfala",
-            "preco": 40,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "tomate",
-                "manjericão",
-                "queijo bufala"
-            ],
-            "alergicos": ["glúten", "lácteos", "tomates", "queijo bufala"],
-            "disponivel": true,
-            "avaliacao": 4.79,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 11,
-            "imagem": "../img/Pizzas/pizza11.png",
-            "nome": "Salame e Azeitonas Pretas",
-            "preco": 32,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "salame",
-                "azeitonas pretas"
-            ],
-            "alergicos": ["glúten", "lácteos", "salame", "azeitonas"],
-            "disponivel": true,
-            "avaliacao": 3.23,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 12,
-            "imagem": "../img/Pizzas/pizza12.png",
-            "nome": "Cogumelos com Pimentão",
-            "preco": 36,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "cogumelos",
-                "pimentão"
-            ],
-            "alergicos": ["glúten", "lácteos", "cogumelos", "pimentão"],
-            "disponivel": true,
-            "avaliacao": 4.57,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 13,
-            "imagem": "../img/Pizzas/pizza13.png",
-            "nome": "Gorgonzola com Tomates Cereja",
-            "preco": 42,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo gorgonzola",
-                "tomates cereja"
-            ],
-            "alergicos": ["glúten", "lácteos", "tomates cereja"],
-            "disponivel": true,
-            "avaliacao": 3.11,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 14,
-            "imagem": "../img/Pizzas/pizza14.png",
-            "nome": "Camarão com azeitonas",
-            "preco": 48,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "camarão",
-                "azeitonas"
-            ],
-            "alergicos": [
-                "glúten",
-                "lácteos",
-                "frutos do mar (camarão)",
-                "azeitonas"
-            ],
-            "disponivel": true,
-            "avaliacao": 4.78,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 15,
-            "imagem": "../img/Pizzas/pizza15.png",
-            "nome": "BBQ Frango",
-            "preco": 39,
-            "ingredientes": [
-                "molho barbecue",
-                "queijo",
-                "frango desfiado",
-                "cebola roxa"
-            ],
-            "alergicos": ["glúten", "lácteos", "frango", "cebola"],
-            "disponivel": true,
-            "avaliacao": 3.9,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 16,
-            "imagem": "../img/Pizzas/pizza16.png",
-            "nome": "Frango com Catupiry",
-            "preco": 37,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "frango desfiado",
-                "catupiry"
-            ],
-            "alergicos": ["glúten", "lácteos", "frango", "catupiry"],
-            "disponivel": true,
-            "avaliacao": 4.56,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 17,
-            "imagem": "../img/Pizzas/pizza17.png",
-            "nome": "Caprese",
-            "preco": 43,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "tomate",
-                "queijo bufala",
-                "manjericão"
-            ],
-            "alergicos": ["glúten", "lácteos", "tomates", "queijo bufala"],
-            "disponivel": true,
-            "avaliacao": 3.01,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 18,
-            "imagem": "../img/Pizzas/pizza18.png",
-            "nome": "Margherita",
-            "preco": 35,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "tomate",
-                "manjericão"
-            ],
-            "alergicos": ["glúten", "lácteos", "tomates"],
-            "disponivel": true,
-            "avaliacao": 3.24,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 19,
-            "imagem": "../img/Pizzas/pizza19.png",
-            "nome": "Pepperoni Picante",
-            "preco": 33,
-            "ingredientes": ["molho de tomate", "queijo", "peperoni picante"],
-            "alergicos": ["glúten", "lácteos", "carne de porco"],
-            "disponivel": true,
-            "avaliacao": 3.68,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 20,
-            "imagem": "../img/Pizzas/pizza20.png",
-            "nome": "Tradicional",
-            "preco": 30,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "calabresa",
-                "azeitonas"
-            ],
-            "alergicos": [
-                "glúten",
-                "lácteos",
-                "carne de porco (na calabresa)",
-                "azeitonas"
-            ],
-            "disponivel": true,
-            "avaliacao": 3.45,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 21,
-            "imagem": "../img/Pizzas/pizza21.png",
-            "nome": "Calabresa",
-            "preco": 32,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "calabresa",
-                "cebola"
-            ],
-            "alergicos": ["glúten", "lácteos", "carne de porco (na calabresa)"],
-            "disponivel": true,
-            "avaliacao": 4.34,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 22,
-            "imagem": "../img/Pizzas/pizza22.png",
-            "nome": "Napolitana",
-            "preco": 38,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "anchovas",
-                "azeitonas",
-                "tomate"
-            ],
-            "alergicos": ["glúten", "lácteos", "peixe (anchovas)"],
-            "disponivel": true,
-            "avaliacao": 5,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 23,
-            "imagem": "../img/Pizzas/pizza23.png",
-            "nome": "Portuguesa",
-            "preco": 41,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo",
-                "presunto",
-                "calabresa",
-                "cebola",
-                "ovos",
-                "azeitonas"
-            ],
-            "alergicos": [
-                "glúten",
-                "lácteos",
-                "carne de porco",
-                "ovos",
-                "azeitonas"
-            ],
-            "disponivel": true,
-            "avaliacao": 3.67,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
-        },
-        {
-            "id": 24,
-            "imagem": "../img/Pizzas/pizza24.png",
-            "nome": "Quatro Queijos",
-            "preco": 37,
-            "ingredientes": [
-                "molho de tomate",
-                "queijo mussarela",
-                "queijo gorgonzola",
-                "queijo parmesão",
-                "queijo provolone"
-            ],
-            "alergicos": ["glúten", "lácteos", "queijos variados"],
-            "disponivel": true,
-            "avaliacao": 4.46,
-            "promocao": {
-                "ativa": false,
-                "percentualDesconto": 30
-            }
+          "nome": "casa",
+          "cep": "01234-567",
+          "numero": "123",
+          "complemento": "duplex",
+          "pontoReferencia": "atras da igreja"
         }
-    ],
-    "clientes": [
+      ],
+      "favoritos": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "carrinho": [
         {
-            "id": 1,
-            "nome": "Douglas Lima",
-            "adm": true,
-            "email": "douglaslima13bezerra@gmail.com",
-            "senha": "douglaspizza",
-            "cpf": "012.345.678-99",
-            "dataNascimento": "2004-05-13",
-            "telefone": "01234567890",
-            "endereco": [
-                {
-                    "nome": "casa",
-                    "cep": "01234-567",
-                    "numero": "123",
-                    "complemento": "duplex",
-                    "pontoReferencia": "atras da igreja"
-                }
-            ],
-            "favoritos": [1, 2, 5, 9],
-            "carrinho": [
-                {
-                    "idPizza": 1,
-                    "qtd": 0
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "nome": "Karla Evelyn",
-            "adm": false,
-            "email": "karlaevelyn123@gmail.com",
-            "senha": "karla",
-            "cpf": "12345678900",
-            "dataNascimento": "2004-07-27",
-            "telefone": "40028922",
-            "endereco": [],
-            "favoritos": [],
-            "carrinho": []
-        },
-        {
-            "id": 3,
-            "nome": "Joao Filho",
-            "adm": false,
-            "email": "joaofilhomonteiro123@gmail.com",
-            "senha": "joao",
-            "cpf": "12345678900",
-            "dataNascimento": "2002-11-20",
-            "telefone": "123456789",
-            "endereco": [],
-            "favoritos": [],
-            "carrinho": []
-        },
-        {
-            "id": 5,
-            "nome": "Davi Gomes",
-            "adm": false,
-            "email": "davigomes123@gmail.com",
-            "senha": "joao",
-            "cpf": "12345678900",
-            "dataNascimento": "2002-11-20",
-            "telefone": "123456789",
-            "endereco": [],
-            "favoritos": [],
-            "carrinho": []
-        },
-        {
-            "id": 6,
-            "nome": "Evelyn Pereira",
-            "adm": false,
-            "email": "douglaslima13bezerra@gmail.com",
-            "senha": "eve",
-            "cpf": "08003794382",
-            "dataNascimento": "2016-06-07",
-            "telefone": "88996766809",
-            "endereco": [],
-            "favoritos": [],
-            "carrinho": []
-        },
-        {
-            "id": 7,
-            "nome": "Evelyn Lima",
-            "adm": false,
-            "email": "douglaslima13bezerra@gmail.com",
-            "senha": "a",
-            "cpf": "08003794382",
-            "dataNascimento": "2024-01-23",
-            "telefone": "88996766809",
-            "endereco": [],
-            "favoritos": [],
-            "carrinho": []
-        },
-        {
-            "id": 8,
-            "nome": "Joao Gomes",
-            "adm": false,
-            "email": "douglaslima13bezerra@gmail.com",
-            "senha": "a",
-            "cpf": "12345678900",
-            "dataNascimento": "2024-01-18",
-            "telefone": "88996766809",
-            "endereco": [],
-            "favoritos": [],
-            "carrinho": [
-                {
-                    "idPizza": 1,
-                    "qtd": 0
-                },
-                {
-                    "idPizza": 1,
-                    "qtd": 0
-                },
-                {
-                    "idPizza": 1,
-                    "qtd": 0
-                },
-                {
-                    "idPizza": 1,
-                    "qtd": 0
-                }
-            ]
+          "idPizza": 1,
+          "qtd": 0
         }
-    ]
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Karla Evelyn",
+      "adm": false,
+      "email": "karlaevelyn123@gmail.com",
+      "senha": "karla",
+      "cpf": "12345678900",
+      "dataNascimento": "2004-07-27",
+      "telefone": "40028922",
+      "endereco": [],
+      "favoritos": [],
+      "carrinho": []
+    },
+    {
+      "id": "3",
+      "nome": "Joao Filho",
+      "adm": false,
+      "email": "joaofilhomonteiro123@gmail.com",
+      "senha": "joao",
+      "cpf": "12345678900",
+      "dataNascimento": "2002-11-20",
+      "telefone": "123456789",
+      "endereco": [],
+      "favoritos": [],
+      "carrinho": []
+    },
+    {
+      "id": "5",
+      "nome": "Davi Gomes",
+      "adm": false,
+      "email": "davigomes123@gmail.com",
+      "senha": "joao",
+      "cpf": "12345678900",
+      "dataNascimento": "2002-11-20",
+      "telefone": "123456789",
+      "endereco": [],
+      "favoritos": [],
+      "carrinho": []
+    },
+    {
+      "id": "6",
+      "nome": "Evelyn Pereira",
+      "adm": false,
+      "email": "douglaslima13bezerra@gmail.com",
+      "senha": "eve",
+      "cpf": "08003794382",
+      "dataNascimento": "2016-06-07",
+      "telefone": "88996766809",
+      "endereco": [],
+      "favoritos": [],
+      "carrinho": []
+    },
+    {
+      "id": "7",
+      "nome": "Evelyn Lima",
+      "adm": false,
+      "email": "douglaslima13bezerra@gmail.com",
+      "senha": "a",
+      "cpf": "08003794382",
+      "dataNascimento": "2024-01-23",
+      "telefone": "88996766809",
+      "endereco": [],
+      "favoritos": [],
+      "carrinho": []
+    },
+    {
+      "id": "8",
+      "nome": "Joao Gomes",
+      "adm": false,
+      "email": "douglaslima13bezerra@gmail.com",
+      "senha": "a",
+      "cpf": "12345678900",
+      "dataNascimento": "2024-01-18",
+      "telefone": "88996766809",
+      "endereco": [],
+      "favoritos": [],
+      "carrinho": [
+        {
+          "idPizza": 1,
+          "qtd": 0
+        },
+        {
+          "idPizza": 1,
+          "qtd": 0
+        },
+        {
+          "idPizza": 1,
+          "qtd": 0
+        },
+        {
+          "idPizza": 1,
+          "qtd": 0
+        }
+      ]
+    }
+  ]
 }
