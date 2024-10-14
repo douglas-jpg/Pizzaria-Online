@@ -18,8 +18,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você instalou a versão mais recente de `<node.js / npm>`
-* Você tem uma máquina `<Windows>`. Indique qual sistema operacional é compatível / não compatível.
+* Você instalou a versão mais recente do [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/).
+* Você tem uma máquina com **Windows**, **Linux** ou **MacOS**.
+* Você leu a [documentação oficial do Bootstrap](https://getbootstrap.com).
 
 ## 🚀 Instalando Pizzaria
 
